@@ -29,17 +29,15 @@
         />
 
         <GridLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:columnCount="2"
             android:layout_marginTop="20dp"
-            android:paddingHorizontal="50dp"
-
-            >
+            android:paddingHorizontal="50dp">
 
             <Button
                 android:id="@+id/btnColdDrinks"
-                android:text="Cold drinks"
+                android:text="cold drinks"
                 android:textColor="@color/dusty_white"
                 android:background="@drawable/first_gradient"
                 android:paddingHorizontal="20dp"
@@ -51,7 +49,7 @@
 
             <Button
                 android:id="@+id/btnHotDrinks"
-                android:text="Hot drinks"
+                android:text="hot drinks"
                 android:textColor="@color/dusty_white"
                 android:background="@drawable/second_gradient"
                 android:paddingHorizontal="20dp"
@@ -63,7 +61,7 @@
 
             <Button
                 android:id="@+id/btnSweets"
-                android:text="Sweets"
+                android:text="sweets"
                 android:textColor="@color/dusty_white"
                 android:background="@drawable/first_gradient"
                 android:paddingHorizontal="20dp"
@@ -75,7 +73,7 @@
 
             <Button
                 android:id="@+id/btnSalties"
-                android:text="Salties"
+                android:text="salties"
                 android:textColor="@color/dusty_white"
                 android:background="@drawable/second_gradient"
                 android:paddingHorizontal="20dp"
@@ -87,7 +85,7 @@
 
             <Button
                 android:id="@+id/btnCombos"
-                android:text="Combos"
+                android:text="combos"
                 android:textColor="@color/dusty_white"
                 android:background="@drawable/first_gradient"
                 android:paddingHorizontal="20dp"
@@ -99,7 +97,7 @@
 
             <Button
                 android:id="@+id/btnCustom"
-                android:text="Custom"
+                android:text="custom"
                 android:textColor="@color/dusty_white"
                 android:background="@drawable/second_gradient"
                 android:paddingHorizontal="20dp"
